@@ -10,6 +10,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: black;
 }
 
 body::before {
@@ -21,7 +22,7 @@ body::before {
   right: 0px;
   bottom: 0px;
   left: 0px;
-  opacity: 0.75;
+  opacity: 0.4;
 }
 
 h1, .cover {
@@ -59,6 +60,17 @@ h1, .cover {
     border: 1px solid #fff;
   }
   
+
+  .navbar-nav, .nav-link, .active, .navbar-brand {
+    color: white;
+  }
+  .navbar-nav, .navbar-brand{
+    font-weight: 800;
+  }
+
+.lead {
+  font-weight: 700;
+}
   
   /*
    * Base structure
