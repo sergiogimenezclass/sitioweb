@@ -1,0 +1,21 @@
+#introduccion {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.caja {
+    width: 80%; 
+    height: 500px;
+     border-radius: 21px 21px 0 0;
+}
+
+.uno {
+    background-image: url('https://www.hogarmania.com/archivos/201903/postres-chocolate-1280x720x80xX.jpg');
+    background-position: 70% 10%;
+    background-size: cover;
+}
+
+.dos {
+    background-image: url('https://masquehermanas.com/wp-content/uploads/2016/09/catering-destacada.png');
+    background-size: cover;
+}
